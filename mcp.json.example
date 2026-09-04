@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "looker": {
+      "type": "stdio",
+      "command": "${workspaceFolder}/bin/toolbox",
+      "args": ["--stdio", "--prebuilt", "looker,looker-dev"],
+      "envFile": "${workspaceFolder}/looker-env/.env"
+    }
+  }
+}

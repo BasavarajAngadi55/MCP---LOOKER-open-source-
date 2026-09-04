@@ -1,0 +1,24 @@
+# Secrets — never commit credentials
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+looker-env/.env
+
+# Local Python virtualenv (includes packages and local .env)
+looker-env/
+
+# Downloaded MCP Toolbox binary (install locally; see README)
+bin/toolbox
+bin/toolbox.exe
+
+# Legacy config that may contain hardcoded API keys
+mcp.json
+
+# Python / OS noise
+__pycache__/
+*.py[cod]
+.DS_Store
+.python-version
